@@ -5,17 +5,15 @@ int Score::sumPoints()
 
 
 }
-int Score::calculateWinner()
-{
-       
-}
+//deleted sum points function bc it was redundant with display winner function 1/15/24
+
 void Score::displayWinner()
 {
-    if(player1Score > player2Score)
+    if(player1Points > player2Points)
     {
         printf("Player 1 wins! \n");
     }
-    else if(player2Score > player1Score)
+    else if(player2Points > player1Points)
     {
         printf("Player 2 wins! \n");
     }

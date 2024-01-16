@@ -3,6 +3,7 @@
 #include "score_class.cpp"
 #include "three_in_a_row.cpp"
 #include <iostream>
+#include <stdio.h>
 
 int main()
 {

@@ -14,6 +14,6 @@ class Board
 
         Board(){};
         void printGrid(){};
-        bool isEmptyBoard(){};
+        bool isEmptyBoard(){return (true)};
     
 };
