@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1703609021 source:/home/nate/Desktop/C++ Practice Problems/TicTacToeCPP/tictactoe/main.cpp
+	<iostream>
+	"tictactoe_header.h"
+
+1704318931 /home/nate/Desktop/C++ Practice Problems/TicTacToeCPP/tictactoe/tictactoe_header.h
+	<iostream>
+	<string>
+
