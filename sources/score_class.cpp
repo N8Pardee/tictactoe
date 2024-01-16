@@ -5,8 +5,10 @@ int Score::sumPoints()
 
 
 }
-//deleted sum points function bc it was redundant with display winner function 1/15/24
-
+int Score::calculateWinner()
+{
+       
+}
 void Score::displayWinner()
 {
     if(player1Points > player2Points)
