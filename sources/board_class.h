@@ -1,4 +1,4 @@
-
+#pragma once
 class Board
 {
     private:
@@ -13,7 +13,7 @@ class Board
     public:
 
         Board(){};
-        void printGrid(){};
-        bool isEmptyBoard(){};
+        void printGrid();
+        bool isEmptyBoard();
     
 };

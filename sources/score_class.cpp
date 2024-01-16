@@ -2,20 +2,23 @@
 
 int Score::sumPoints()
 {
-
+    /* This function will count the total number of possible points per session
+        including the stalemate points. It will add 1 to the current score of the winner for the 
+        previous round
+    
+    */
 
 }
-int Score::calculateWinner()
-{
-       
-}
+
+//add a function to display the number of rounds played, total score for the session, and player points
+
 void Score::displayWinner()
 {
-    if(player1Score > player2Score)
+    if(player1Points > player2Points)
     {
         printf("Player 1 wins! \n");
     }
-    else if(player2Score > player1Score)
+    else if(player2Points > player1Points)
     {
         printf("Player 2 wins! \n");
     }

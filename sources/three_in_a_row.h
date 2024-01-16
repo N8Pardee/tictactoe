@@ -1,6 +1,6 @@
 // This class will determine if there is a valid match win
 // by determining if there are 3 in a row
-
+#pragma once
 class threeInARow
 {
     private:

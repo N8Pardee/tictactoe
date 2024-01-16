@@ -43,7 +43,7 @@
     }
 
     //this function will inherit from the the score class. It will assign the points to the player 
-    int trackScore(int score::)
+    int trackScore()
     {
         
     }
