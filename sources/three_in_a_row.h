@@ -17,8 +17,8 @@ class threeInARow : public Board
        
        threeInARow(*gameboard){};
         void validateInput(*gameboard);
-        bool isThreeInARow(*gameboard);
-        bool isAStalemate();
+        bool isThreeInARow(gameboard);
+        bool isAStalemate(gameboard);
         
 
 };
