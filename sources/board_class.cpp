@@ -1,6 +1,5 @@
 #include"board_class.h"
-#include <iostream>
-
+#include<iostream>
 
     void Board::printGrid()
     {

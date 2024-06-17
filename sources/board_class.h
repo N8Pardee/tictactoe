@@ -8,11 +8,15 @@ class Board
     protected:
         short row = 0;
         short column = 0;
-        char gameBoard[3][3] = {' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' '};
+        char game_board[3][3] = {' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' '};
 
     public:
 
-        Board(){};
+        Board()
+        {
+            gameboard = this->game_board;
+        };
+
         void printGrid();
         bool isEmptyBoard();
     

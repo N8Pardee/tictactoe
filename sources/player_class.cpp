@@ -1,6 +1,5 @@
 #include"player_class.h"
-#include "board_class.h"
- 
+#include "board_class.h" 
  
     void Player::obtainPlayer1Input()
     {
