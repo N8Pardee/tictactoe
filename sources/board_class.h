@@ -23,10 +23,8 @@ class Board
         char (*gameboardPointer)[3] = GAMEBOARD;
 
     public:
+        Board(){};
+        void printGrid(){};
+        bool isEmptyBoard(){return (true);}    
 
-        Board(){ };
-
-        void printGrid();
-        bool isEmptyBoard();
-    
 };

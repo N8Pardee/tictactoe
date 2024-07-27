@@ -10,7 +10,21 @@
 
 // }
 
-// //add a function to display the number of rounds played, total score for the session, and player points
+void Score::displayWinner()
+{
+    if(player1Points > player2Points)
+    {
+        printf("Player 1 wins! \n");
+    }
+    else if(player2Points > player1Points)
+    {
+        printf("Player 2 wins! \n");
+    }
+    else
+    {
+        printf("There is a tie! \n");
+    }
+
 
 // void Score::displayWinner()
 // {

@@ -1,11 +1,12 @@
 #include"three_in_a_row.h"
 #include "board_class.h"
 
-// void validateInput()
-// {
-//   //this function will check to see if the player inputs the available coordinates or legal coordinates. If 
-//   // the players input does not fit the 3x3 grid. Display error message and call player input function.
-// }
+
+void validateInput()
+{
+    
+}
+
 
 //  /* this function will loop through the grid and check if any of these combinations are true. Check after 5 turns*/
 // bool isThreeInARow(char GAMEBOARD)
