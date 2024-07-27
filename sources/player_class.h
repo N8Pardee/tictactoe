@@ -8,19 +8,20 @@
 
 class Player: public Board
 {
-    Player();
     private:
-        char player1Choice;
-        char player1;
-        char player2;
+        char ;
+        char player;
         int score = 0;
-        bool nextTurn;
-        int playerPosition[3][3];
+        bool next_turn;
+        int player_Position[3][3];
 
     public:
 
+        Player(){};
         void obtainPlayer1Input();
         void determineStartingPlayer();
-        void playerTurn();
-        int trackScore();
+        void playerTurn(){};
+        //char getPlayer(){};
+        //void setPlayer(char player){};
+       // int trackScore(){};
 };

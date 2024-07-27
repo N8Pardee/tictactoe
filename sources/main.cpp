@@ -8,12 +8,13 @@
 int main()
 {
     Board * gameboard = new Board();
-    Player player1 = new Player();
-    Player player2 = new Player();
+    Player player1;
+    Player player2;
+
     gameboard->printGrid();
     player1.obtainPlayer1Input();
-    player1.playerTurn();
-
+     player1.playerTurn();
+    
 
     return 0;
 }
